@@ -15,7 +15,7 @@ class WinFunctions
 		static HANDLE getHandle(DWORD pid);
 
 		void getInfo(LPCSTR processName);
-		void print();
+		void printInfo();
 
 		//http://www.cplusplus.com/doc/oldtutorial/templates/
 		template <class T>

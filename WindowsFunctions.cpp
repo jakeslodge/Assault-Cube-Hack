@@ -18,9 +18,13 @@ HANDLE WinFunctions::getHandle(DWORD pid) {
 
 void WinFunctions::getInfo(LPCSTR processName)
 {
-	std::cout << processName << "\n";
+	
 	processID = getPID(processName);
-	std::cout << processID << "\n";
 	processHandle = getHandle(processID);
-	std::cout << processHandle << "\n";
+}
+
+void WinFunctions::printInfo()
+{
+	std::cout << "Pid: " << processID << "\n";
+	std::cout << "Handle: " << processHandle << "\n";
 }

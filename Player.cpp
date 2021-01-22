@@ -22,9 +22,9 @@ void Player::GetInfo()
 
 void Player::Print()
 {
-	std::cout << "=============================" << "\n";
-	std::cout << "========== Player ===========" << "\n";
-	std::cout << "=============================" << "\n\n";
+
+	std::cout << "~~~~ Player ~~~~" << "\n";
+
 
 	std::cout << "Name (me): " << health << "\n";
 	std::cout << "Health: " << health << "\n";
